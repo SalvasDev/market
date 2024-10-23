@@ -1,0 +1,67 @@
+[
+  {
+    "_id": 1,
+    "name": "Adifonos",
+    "description": "Blanco",
+    "Category": ["Microfonos", "Tecnología"],
+    "imageUrl": [
+      "../../assets/img/products/technology/1.jpg",
+      "../../assets/img/products/technology/2.jpg",
+      "../../assets/img/products/technology/3.jpg",
+      "../../assets/img/products/technology/4.jpg"
+    ],
+    "sale_price": 225,
+
+    "regular_price": 345,
+    "created_at": "2022-02-14T16:51:07.214X",
+    "slug": "tipo_audifonos"
+  },
+  {
+    "_id": 2,
+    "name": "Micrófono Azul",
+    "description": "Azul",
+    "Category": ["Microfonos", "Tecnología"],
+    "imageUrl": [
+      "../../assets/img/products/technology/2.jpg",
+      "../../assets/img/products/technology/1.jpg",
+      "../../assets/img/products/technology/3.jpg",
+      "../../assets/img/products/technology/4.jpg"
+    ],
+    "sale_price": 235,
+    "regular_price": 345,
+    "created_at": "2022-04-14T16:51:07.214X",
+    "slug": "tipo_microfono"
+  },
+  {
+    "_id": 3,
+    "name": "Computadora",
+    "description": ",Metálica",
+    "Category": ["Computadoras", "Tecnología"],
+    "imageUrl": [
+      "../../assets/img/products/technology/3.jpg",
+      "../../assets/img/products/technology/1.jpg",
+      "../../assets/img/products/technology/2.jpg",
+      "../../assets/img/products/technology/4.jpg"
+    ],
+    "sale_price": 2325,
+    "regular_price": 3445,
+    "created_at": "2022-02-14T16:51:07.214X",
+    "slug": "tipo_computadora"
+  },
+  {
+    "_id": 4,
+    "name": "Adifonos",
+    "description": "Rojos",
+    "Category": ["Microfonos", "Tecnología"],
+    "imageUrl": [
+      "../../assets/img/products/technology/4.jpg",
+      "../../assets/img/products/technology/1.jpg",
+      "../../assets/img/products/technology/2.jpg",
+      "../../assets/img/products/technology/3.jpg"
+    ],
+    "sale_price": 245,
+    "regular_price": 445,
+    "created_at": "2022-02-17T16:51:07.214X",
+    "slug": "tipo_audifonos-rojo"
+  }
+]

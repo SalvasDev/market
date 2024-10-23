@@ -1,0 +1,13 @@
+<div class="lg:w-4/4 md:w-4/4 p-4 w-full">
+  <a class="block relative h-48 rounded overflow-hidden">
+    <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+      [src]="producto ? producto.imageUrl[0] : '' " [alt]="producto?.name"
+      [routerLink]="['producto', producto?.slug]">
+  </a>
+  <div class="mt-4">
+    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+    <h2 class="text-gray-900 title-font text-lg font-medium"> {{producto?.name?.substring(0,20)}} {{ producto && producto.name[21] ? "..." : null }}</h2>
+    <p class="mt-1">{{ producto?.sale_price || 0 }}</p> <del>${{ (producto?.regular_price || 0) }}</del>
+    <span class="text-danger ml-3">{{ producto ? ((producto.regular_price - producto.sale_price)/(producto.regular_price) | percent) : null }}</span>
+  </div>
+</div>
